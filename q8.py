@@ -24,3 +24,24 @@ for i in range(1,n+1):
     for j in range(1,i+1):
         print(chr(65+i-1),end=" ")
     print()
+
+
+#    
+n=5
+num=0
+for i in range(n):
+    for j in range(i+1):
+       print(chr(65+num),end=" ")
+       num+=1
+    print()
+    
+#ABCD pattern pyramid
+n=5
+sp=5
+for i in range(1,n+1):
+    for s in range(0,sp):
+        print(end=" ")
+    for j in range(1,i+1):
+        print(chr(65+j-1),end=" ")
+    print()
+    sp-=1
