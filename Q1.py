@@ -1,3 +1,4 @@
+#Sum of array elements
 n = int(input("Enter number of elements: "))
 
 arr = []
